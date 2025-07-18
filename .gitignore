@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+
+# React build
+frontend/build/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# Optional:
+.vscode/
+.DS_Store
+

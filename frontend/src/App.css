@@ -1,0 +1,200 @@
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+
+/* Navbar */
+
+.NavbarContainer{
+  height: 5rem;
+width: 100vw;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+ color: rgba(255, 255, 255, 0.956);
+display: flex;
+ backdrop-filter: blur(6px);
+justify-content:space-between;
+
+
+}
+
+.Navleft{
+  padding: 1.3rem 0 0 2rem;
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.Navleft span{
+  margin-left: 3rem;
+   transition: all 0.3s ease-in-out;
+}
+
+.Homeicon:hover{
+ color: rgb(80, 205, 80);
+  font-size: xx-large;
+  cursor: pointer;
+}
+.addVehicle:hover{
+   color: rgb(80, 205, 80);
+  font-size: xx-large;
+  cursor: pointer;
+}
+.Navmiddle input {
+  height: 2.8rem;
+  width: 18rem;
+  padding-left: 1rem;
+  font-size: larger;
+  margin-top: 1rem;
+  border-radius: 1.4rem;
+  border: none;
+   outline: none;
+}
+
+.Navmiddlebutton{
+  height: 2.8rem;
+  width: 6rem;
+  margin-left: 0.8rem;
+  margin-top: 1rem;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: x-large;
+  background-color: blue;
+   transition: all 0.3s ease-in-out;
+  
+}
+.Navmiddlebutton:hover{
+  background-color:rgb(80, 205, 80) ;
+  color: white;
+  cursor: pointer;
+}
+.Navright{
+   padding: 1.2rem 7rem 0 0;
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+.Navright:hover{
+  color: rgb(80, 205, 80);
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+/* ADD VEHICLE */
+
+.ADDVEHICLEBODY{
+  height: 100vh;
+  width: 100vw;
+   background: linear-gradient(to right, #40bb46, #12975b, #17749c);
+   position: fixed;
+}
+.add_hedding{
+  font-size: 2.9rem;
+  font-weight: 600;
+  margin: 3rem 0 0 3rem;
+  text-align: center;
+  color: aliceblue;
+
+}
+
+
+/* form */
+
+.formContainer{
+text-align: center;
+padding-top: 3rem;
+}
+
+.formContainer label{
+  color: wheat;
+  font-size: xx-large;
+  padding-top: 2.2rem;
+
+}
+
+.formContainer input{
+  height: 3rem;
+  width: 17rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  border-radius: 1.3rem;
+  opacity: 0.7;
+  border: blanchedalmond 1px solid;
+  outline: none;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+.formContainer button{
+height: 3rem;
+margin: 3rem 0 0 2rem;
+width: 17rem;
+background-color: #0638cc;
+color: white;
+font-size: 1.5rem;
+border-radius: 1rem;
+border: none;
+  transition: all 0.3s ease-in-out;
+}
+.formContainer button:hover{
+background-color: rgb(80, 205, 80);
+  font-size: 1.7rem;
+}
+
+/* landingPage */
+
+.Landingbody{
+height: 100vh;
+    width: 100vw;
+     background: url("/public/background.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.9;
+   position: fixed;
+}
+
+.Landing_heading{
+   font-size: 2.9rem;
+  font-weight: 600;
+  margin: 3rem 0 0 3rem;
+  text-align: center;
+  color: aliceblue;
+}
+.landingformcontainer{
+  text-align: center ;
+  height: 25rem;
+  padding-top: 1rem;
+  margin: 2rem 0 0 35%;
+  width: 30rem;
+  background-color: rgba(250, 235, 215, 0.59);
+}
+
+.landingformcontainer label{
+  font-size:x-large;
+  font-weight: 600;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 2rem;
+}
+
+.landingformcontainer input{
+  height: 2.3rem;
+  width: 17rem;
+  border: none;
+  outline: none;
+  border-radius: 0.6rem;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+.landingformcontainer button{
+ height: 3rem;
+margin: 1.5rem 0 0 2rem;
+width: 10rem;
+background-color: #0638cc;
+color: white;
+font-size: 1.5rem;
+border-radius: 1rem;
+border: none;
+  transition: all 0.3s ease-in-out;
+}
