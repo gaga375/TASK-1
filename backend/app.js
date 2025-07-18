@@ -7,7 +7,12 @@ import cors from 'cors'
 
 configDotenv()
 
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({
+  origin: "https://task-1-frontend-g1q1.onrender.com",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
 app.use(express.json());
 
 export const startServer = async () => {
