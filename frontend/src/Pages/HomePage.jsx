@@ -15,7 +15,7 @@ export default function VehicleListPage() {
 const id = uuidv4();
 async function handleBooking(_id) {
   try {
-    const res = await axios.post("http://localhost:8080/bookings", {
+    const res = await axios.post("https://task-1-server-0ro7.onrender.com/bookings", {
       vehicleId: _id,
       customerId: id,
       fromPincode: bookingdata.fromPincode,

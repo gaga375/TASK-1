@@ -13,7 +13,7 @@ export default function AddVehicle(){
 const handleSubmit = async (e) => {
   e.preventDefault();
 if(carName && capCapacity && carTyres){
- let res = await axios.post("http://localhost:8080/new",{
+ let res = await axios.post("https://task-1-server-0ro7.onrender.com/new",{
 name:carName,
 capacitykg:capCapacity,
 tyres:carTyres

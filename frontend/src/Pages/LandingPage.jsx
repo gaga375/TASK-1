@@ -16,7 +16,7 @@ const handleSubmit = async (e) => {
 
   try {
     const res = await axios.get(
-      `http://localhost:8080/available?capacity=${capacity}&fromPincode=${fromPincode}&toPincode=${ToPincode}&startTime=${startTime}`
+      `https://task-1-server-0ro7.onrender.com/available?capacity=${capacity}&fromPincode=${fromPincode}&toPincode=${ToPincode}&startTime=${startTime}`
     );
 
     const result = res.data;
